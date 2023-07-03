@@ -1,0 +1,11 @@
+Cores:
+	Dourado: #C6AE32
+	Preto: #000000
+	Cinza: #D9D9D9
+
+Fontes: 
+	RoxboroughCF
+	Monserrat
+	Sorts Mill Goudy
+
+		
