@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+:root {
+    --primeira-cor: #C6AE32;
+    --segunda-cor: #151515;
+    --terceira-cor: #D9D9D9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(IMG/JPG/pexels-pavel-danilyuk-8112201.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+   
+    
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.cabeçalho-link a:hover{
+    color:  var(--primeira-cor);
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 10px;
+}
+#logo{
+    scale: 20%;
+}
+
+
+button{
+    color: var(--primeira-cor);
+    background: transparent;
+    border:solid 1px #C6AE32;
+    padding: 2px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: var(--primeira-cor);
+    color: var(--terceira-cor);
+    transition: 0.8s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: var(--terceira-cor);
+    font-size: 15px;
+}
+
+.text h1{
+    color: var(--terceira-cor);
+    margin-top: 10px;
+}
+
+.text span{
+    color: var(--primeira-cor); 
+}
+
+.text p{
+    color: var(--terceira-cor);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.redes-social{
+    margin-top: 10px;
+}
+
+.redes-social a{
+    color: var(--primeira-cor);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+        display: none;
+    }
+    
+}
