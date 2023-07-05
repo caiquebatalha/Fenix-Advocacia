@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 
 :root {
     --primeira-cor: #C6AE32;
@@ -6,13 +6,11 @@
     --terceira-cor: #D9D9D9;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins" , sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     list-style: none;
 }
@@ -36,8 +34,15 @@ header{
     align-items: center;
     text-align: center;
     padding-top: 2rem;
+    max-width: 100%;
+    max-height: 500px;
    
     
+}
+
+.logo img{
+    width: 120px;
+    height: auto;
 }
 
 .cabeçalho-link{
@@ -57,12 +62,8 @@ header{
     transition: 0.3s all;
 }
 
-.logo{
-    height: 10px;
-}
-#logo{
-    scale: 20%;
-}
+
+
 
 
 button{
@@ -83,17 +84,18 @@ button:hover{
 }
 
 .container-text{
-    padding: 150px 0 0 130px;
+    padding: 120px 0 0 130px;
 }
 
 .text h3{
     color: var(--terceira-cor);
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .text h1{
     color: var(--terceira-cor);
     margin-top: 10px;
+    font-size: 45px;
 }
 
 .text span{
@@ -104,7 +106,8 @@ button:hover{
     color: var(--terceira-cor);
     font-weight: 500;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 20px;
+    max-width: 600px;
 }
 
 .redes-social{
