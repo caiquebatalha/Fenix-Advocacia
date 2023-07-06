@@ -54,7 +54,7 @@ header{
 
 .cabeçalho-link a{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .cabeçalho-link a:hover{
@@ -72,7 +72,7 @@ button{
     border:solid 1px #C6AE32;
     padding: 2px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     width: 150px;
 }
@@ -84,7 +84,7 @@ button:hover{
 }
 
 .container-text{
-    padding: 120px 0 0 130px;
+    padding: 175px 0 0 130px;
 }
 
 .text h3{
@@ -94,8 +94,8 @@ button:hover{
 
 .text h1{
     color: var(--terceira-cor);
-    margin-top: 10px;
-    font-size: 45px;
+    margin-top: 5px;
+    font-size: 50px;
 }
 
 .text span{
@@ -106,8 +106,8 @@ button:hover{
     color: var(--terceira-cor);
     font-weight: 500;
     margin-top: 10px;
-    font-size: 20px;
-    max-width: 600px;
+    font-size: 25px;
+    max-width: 700px;
 }
 
 .redes-social{
@@ -122,6 +122,90 @@ button:hover{
 
 .btn{
     margin-top: 15px;
+}
+
+/* SERVIÇOS*/
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:25px;
+    padding: 120px ;
+}
+
+.box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 30px;
+    border: 1px solid #C6AE32;
+    background: transparent;
+    backdrop-filter: blur(0.5rem);
+    text-align: center;
+    padding:50px 20px;
+}
+
+
+.box-container .box h3{
+    color:var(--primeira-cor);
+    font-size: 25px;
+    padding:px ;
+}
+
+.box-container .box p{
+    color:var(--terceira-cor);
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 18px;
+}
+
+
+.box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.05);
+    transition: 0.8s;
+    backdrop-filter: blur(2rem);
+
+}
+
+/* SOBRE*/
+
+.box-sobre{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:25px;
+    padding: 120px ;
+}
+
+.box-sobre .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 30px;
+    border: 1px solid #C6AE32;
+    background: transparent;
+    backdrop-filter: blur(0.5rem);
+    text-align: center;
+    padding:50px 20px;
+}
+
+
+
+.box-sobre .box h3{
+    color:var(--primeira-cor);
+    font-size: 50px;
+    padding:20px ;
+}
+
+.box-sobre .box p{
+    color:var(--terceira-cor);
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 25px;
+}
+
+
+.box-sobre .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transition: 2s;
+    backdrop-filter: blur(2rem);
+
 }
 
 @media screen and (max-width:600px){
